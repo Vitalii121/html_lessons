@@ -1,4 +1,4 @@
-.paralelepiped{
+.box{
     width: 1000px;
     height: 500px;
     background: #7f7f80;
@@ -9,7 +9,6 @@
     margin-bottom: 30px;
 }
 .something{
-    width: 1700px;
     margin-left: 30px;
     box-sizing: border-box;
     border-left: 5px solid red;
