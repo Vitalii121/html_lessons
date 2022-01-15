@@ -1,0 +1,46 @@
+#container{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+
+}
+.two_box{
+    width: 900px;
+    height: 1000px;
+    background: #2268bb;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 700px;
+}
+#container_2{
+    box-sizing: border-box;
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.rectangle{
+    background: #2268bb;
+    color: white;
+    font-size: 50px;
+    height: 500px;
+    text-align: center;
+    padding-top: 400px;
+}
+#container_3{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.three_box{
+    width: 590px;
+    height:500px;
+    background: #16447a;
+    text-align: center;
+    padding-top: 420px;
+    font-size: 50px;
+    color: white;
+}
