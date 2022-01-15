@@ -44,3 +44,66 @@
     font-size: 50px;
     color: white;
 }
+
+
+
+
+
+
+
+/*necessarily2*/
+.a{
+    background: silver;
+    height: 200px;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 150px;
+}
+#container-boxes{
+    display: flex;
+    justify-content: flex-start;
+}
+#container-boxes>div{
+    margin-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#container-boxes2 {
+    display: flex;
+    justify-content: flex-start;
+}
+.b{
+    box-sizing: border-box;
+    background: #2268bb;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding-top: 135px;
+    font-size: 30px;
+}
+#container-boxes2>div{
+    margin-right: 5%;
+}
+#container-h{
+
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 610px;
+}
+.h{
+    background: #2cfdf1;
+    height: 310px;
+    width: 780px;
+    text-align: center;
+    padding-top: 300px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
