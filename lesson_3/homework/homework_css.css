@@ -1,7 +1,8 @@
 #content{
     display: flex;
-    width: 900px;
+    margin-left: 30%;
     flex-direction: column;
+
 }
 .header{
     box-sizing: border-box;
@@ -52,3 +53,8 @@
     align-items: center;
     font-size: 30px;
 }
+
+
+
+/*homework 2-2*/
+
