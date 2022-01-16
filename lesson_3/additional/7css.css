@@ -1,0 +1,9 @@
+#content{
+    display: flex;
+
+}
+.header{
+    background: #d1b395;
+    height: 100px;
+    width: 1900px;
+}
