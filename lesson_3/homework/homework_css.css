@@ -1,6 +1,7 @@
 #content{
     display: flex;
     width: 900px;
+    flex-direction: column;
 }
 .header{
     box-sizing: border-box;
@@ -12,20 +13,42 @@
     line-height: 140px;
     font-size: 30px;
 }
-#content_2{
+#center-div{
+    display: flex;
+}
+.left_part{
+    display: flex;
     justify-content: flex-start;
+    margin-top: 10px;
+
 }
 .menu{
-    background: #6ab967;
-    height: 600px;
-    width: 200px;
-}
-#sub-conteiner{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background: #2cfdf1;
+    width: 300px;
+    height: 600px;
+    margin-right: 10px;
 
 }
 .post{
+    background: #882727;
+    width: 570px;
+    height: 295px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.footer{
     background: #6ab967;
-    height: 200px;
-    width: 200px;
+    width: 880px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
 }
