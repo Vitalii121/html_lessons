@@ -1,0 +1,31 @@
+#content{
+    display: flex;
+    width: 900px;
+}
+.header{
+    box-sizing: border-box;
+    justify-content: space-around;
+    background: #2268bb;
+    width: 880px;
+    height: 150px;
+    text-align: center;
+    line-height: 140px;
+    font-size: 30px;
+}
+#content_2{
+    justify-content: flex-start;
+}
+.menu{
+    background: #6ab967;
+    height: 600px;
+    width: 200px;
+}
+#sub-conteiner{
+    display: flex;
+
+}
+.post{
+    background: #6ab967;
+    height: 200px;
+    width: 200px;
+}
