@@ -3,56 +3,55 @@ body{
 }
 .main{
     display: flex;
-    border: 1px solid red;
     flex-wrap: wrap;
+    gap: 10px;
 }
 .header{
     background: #2cfdf1;
     width: 1900px;
     height: 100px;
 }
-.six-box{
-    display: flex;
-    border: 1px solid #882727;
-}
 .four-box{
-    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
 }
 .two_box{
-    border: 1px solid red;
     display: flex;
+    gap: 10px;
 }
 .two_box_left{
     display: flex;
     flex-direction: column;
     row-gap: 10px;
-    border: 1px solid red;
 }
 .hero{
     background: #2cfdf1;
-    width: 900px;
+    width: 600px;
     height: 400px;
+    flex: 1;
 }
 .sidebar{
     background: #2cfdf1;
-    width: 900px;
+    width: 600px;
     height: 400px;
+    flex: 3;
 }
 .two_box_right{
     display: flex;
     flex-direction: column;
     row-gap: 10px;
+
 }
 .main_content{
     background: #d1b395;
-    width: 1000px;
+    width: 1290px;
     height: 400px;
+
 }
 .extra_content{
     background: #d1b395;
-    width: 1000px;
+    width: 1290px;
     height: 400px;
 }
 .two_box_under{
@@ -63,14 +62,16 @@ body{
     background: #16447a;
     width: 1200px;
     height: 300px;
+    flex: 3;
 }
 .post{
     background: #16447a;
     width: 700px;
     height: 300px;
+    flex: 1;
 }
 .footer{
     background: #8785ab;
     height: 150px;
-    width: 1900px;
+    width: 1910px;
 }
