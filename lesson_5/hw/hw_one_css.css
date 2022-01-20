@@ -1,0 +1,50 @@
+.header{
+    background: #6294eb;
+    height: 300px;
+}
+.h400{
+    height: 400px;
+}
+.h600{
+    height: 600px;
+}
+.w700{
+    width: 700px;
+}
+.w1200{
+    width: 1200px;
+}
+.bcgrd_2{
+    background: #6294eb;
+}
+.bcgrd{
+    background: #d1b395;
+}
+.two{
+    display: flex;
+    gap: 10px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+@media screen and (min-width: 0px) and (max-width:992px) {
+    .main{
+        display: flex;
+        margin-top: 10px;
+    }
+    .two{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .two>div:nth-child(2){
+       height: 150px;
+        width: 980px;
+   }
+    .header{
+        height: 150px;
+    }
+}
+
