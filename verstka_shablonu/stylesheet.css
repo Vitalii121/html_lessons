@@ -252,7 +252,8 @@
     margin-top: 50px;
 
 }
-.one_column{
+.name_sponsors .one_column:nth-child(3){
+    margin-top: 30px;
 }
 .img_sponsors{
     text-align: center;
