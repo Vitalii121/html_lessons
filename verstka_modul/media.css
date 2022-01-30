@@ -1,0 +1,117 @@
+@media screen and (max-width: 1295px){
+   .header_image{
+     display: none;
+   }
+    .wrap_nav_menu{
+        column-gap: 50px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .wraper_top_bar{
+        display: none;
+    }
+    .wrap_nav_menu{
+        flex-direction: column;
+    }
+    .nav_menu_item>img{
+        display: none;
+    }
+    .nav_menu{
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: flex-start;
+
+    }
+    .wrap_nav_menu{
+        row-gap: 10px;
+    }
+    .right_side_header{
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 10px;
+    }
+    .right_side_header>button{
+        display: none;
+    }
+    .header_content{
+        padding-top: 0;
+    }
+    .header_txt{
+        width: 100%;
+    }
+    .partner_block{
+        margin-top: 50px;
+    }
+    .partner_list{
+        height: 100%;
+        column-gap: 30px;
+        row-gap: 10px;
+        width: 100%;
+    }
+        .image_bike{
+            display: none;
+        }
+        .txt_on_green_bcgr{
+            margin: auto;
+        }
+        .purple_wrap{
+            padding: 0;
+            margin-top: 60px;
+        }
+        .purple_background{
+            width: 100%;
+            margin-right: 20px;
+            margin-left: 20px;
+            padding: 0;
+
+        }
+        .image_on_purple{
+            display: none;
+        }
+        .txt_on_purple_bcgr{
+            margin: auto;
+        }
+        .contextual_image{
+            display: none;
+        }
+        .spring_delivers>h2{
+            font-size: 40px;
+        }
+        .two_elements_spr_deliv{
+            padding-top: 60px;
+        }
+        .spring_helps>p{
+            font-size: 24px;
+        }
+        .bcgr_spring_helps{
+            padding: 20px 20px;
+        }
+        .case_study{
+            margin: 20px 20px;
+        }
+        .img_kov{
+            display: none;
+        }
+         .block_with_two_colors{
+             height: 100%;
+         }
+         .block_integrations{
+             margin-top: 60px;
+             margin-bottom: 60px;
+         }
+         .under{
+             padding: 68px 32px 100px 210px;
+         }
+         .onboarding_wrap>img{
+             width: 100%;
+         }
+         .block_how_spring{
+             margin-bottom: 100px;
+         }
+         .block_contextual{
+             margin-bottom: 70px;
+         }
+         .image_sntegrations{
+             display: none;
+         }
+}
